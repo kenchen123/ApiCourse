@@ -36,7 +36,7 @@ namespace WebAPI.Controllers
                         DepartmentName = department.DepartmentName
                     }, commandType: CommandType.StoredProcedure); ;
                 }
-                return "Success";
+                return "Post successfully";
             }
             catch(Exception e)
             {
@@ -57,7 +57,7 @@ namespace WebAPI.Controllers
                         DepartmentName = department.DepartmentName
                     }, commandType: CommandType.StoredProcedure);
                 }
-                return "Success";
+                return "Update successfully";
             }
             catch(Exception e)
             {
@@ -77,7 +77,7 @@ namespace WebAPI.Controllers
                         DepartmentID = id
                     }, commandType: CommandType.StoredProcedure);
                 }
-                return "Success";
+                return "Delete successful";
             }
             catch(Exception e)
             {
